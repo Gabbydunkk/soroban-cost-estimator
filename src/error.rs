@@ -10,6 +10,9 @@ pub enum AppError {
     #[error("failed to perform I/O: {0}")]
     Io(#[from] std::io::Error),
 
+    #[error("File not found: {0}")]
+    FileNotFound(String),
+
     // ── RPC ─────────────────────────────────────────────────────────
     #[error("failed to execute RPC: status {status} - {message}")]
     Rpc { status: i64, message: String },
