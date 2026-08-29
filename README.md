@@ -365,4 +365,4 @@ Looking for something to work on? The
 holds scoped issues with Summary / Acceptance Criteria / Tech Stack — good
 first tasks for the Drips Stellar Wave contributor sprints.
 
-Fixing issue 140
+Fixing issue 112
